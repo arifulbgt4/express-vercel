@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const product = require("./src/api/product");
+const product = require("./api/product");
 
 app.use(express.json({ extended: false }));
 
